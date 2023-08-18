@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <section class="topbar d-xl-block d-none">
+    <div class="container">
+      <ul class="d-flex flex-col justify-content-center">
+        <li>
+          <a href="">SAVE MORE ON APP</a>
+        </li>
+        <li>
+          <a href="">DARAZ DONATES</a>
+        </li>
+        <li>
+          <a href=""><span>SELL ON DARAZ</span></a>
+        </li>
+        <li>
+          <a href="">CUSTOMER CARE</a>
+        </li>
+        <li>
+          <a href="">TRACK MY ORDER</a>
+        </li>
+        <li>
+          <a href="">SIGNUP / LOGIN</a>
+        </li>
+        <li>
+          <a href="">DARAZ AFFILIATE PROGRAM </a>
+        </li>
+        <li>
+          <a href="">ভাষা</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- !Top Bar -->
+
+  <!-- Top Nav -->
+  <section class="top_nav">
+    <div class="container">
+      <div class="d-md-flex justify-content-between d-block">
+        <div class="my-auto d-md-block d-none">
+          <a href="">
+            <img src="./img/logo.png" class="img-fluid logo" alt="logo">
+          </a>
+        </div>
+        <div class="d-flex my-auto">
+          <div class="input-group my-auto">
+            <button class="btn d-md-none d-block search2 my-auto"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="text" class="form-control my-auto" placeholder="Search in Daraz">
+            <button class="btn d-md-block d-none search1"><img src="./img/search.svg" class="img-fluid" alt=""></button>
+          </div>
+          <a href="" class="my-auto cart_btn d-md-block d-none">
+            <svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" data-spm-anchor-id="a2a0e.home.dcart.i0.735212f7BXdmoW">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <title>cart</title>
+              <desc>Created with Sketch.</desc>
+              <defs>
+                <polyline id="path-1" points="0 0.00306976744 24.7219388 0.00306976744 24.7219388 22 0 22"></polyline>
+                <polyline id="path-3" points="0 0.00306976744 24.7219388 0.00306976744 24.7219388 22 0 22"></polyline>
+              </defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="cart">
+                  <g id="icon-cart">
+                    <path
+                      d="M0,0.00312093023 L0,2.04963256 L3.26734694,2.04963256 L7.77397959,15.2665163 L23.1602041,15.2665163 L24.7214286,4.61749302 L5.75561224,3.02070233 L4.72602041,0.00312093023 L0,0.00312093023 Z M6.47653061,5.13526047 L22.3872449,6.47470233 L21.397449,13.2200047 L9.23265306,13.2200047 L6.47653061,5.13526047 Z"
+                      id="Fill-1" fill="#212121" fill-rule="nonzero"></path>
+                    <g id="Group-8">
+                      <g id="Group-4">
+                        <g id="Fill-2-Clipped">
+                          <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                          </mask>
+                          <g id="path-1"></g>
+                          <path
+                            d="M10.9269388,19.8042465 C10.9269388,21.0168047 9.94683673,22.0001535 8.73714286,22.0001535 C7.52795918,22.0001535 6.54785714,21.0168047 6.54785714,19.8042465 C6.54785714,18.5916884 7.52795918,17.6083395 8.73714286,17.6083395 C9.94683673,17.6083395 10.9269388,18.5916884 10.9269388,19.8042465"
+                            id="Fill-2" fill="#212121" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                      </g>
+                      <g id="Group-7">
+                        <g id="Fill-5-Clipped">
+                          <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                          </mask>
+                          <g id="path-3"></g>
+                          <path
+                            d="M24.3623469,19.8042465 C24.3623469,21.0168047 23.3822449,22.0001535 22.172551,22.0001535 C20.9633673,22.0001535 19.9832653,21.0168047 19.9832653,19.8042465 C19.9832653,18.5916884 20.9633673,17.6083395 22.172551,17.6083395 C23.3822449,17.6083395 24.3623469,18.5916884 24.3623469,19.8042465"
+                            id="Fill-5" fill="#212121" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="my-auto d-md-block d-none">
+          <a href="">
+            <img src="./img//download_app.png" class="img-fluid download_app" alt="add image">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- !Top Nav -->
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero_content">
+        <div class="side_nav d-md-block d-none">
+          <ul>
+            <li>
+              <a href="">
+                Women's & Girls' Fashion
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Health & Beauty
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Watches, Bags, Jewellery
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Men's & Boys' Fashion
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Mother & Baby
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Electronics Devices
+              </a>
+            </li>
+            <li>
+              <a href="">
+                TV & Home Appliances
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Electronic Accessories
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Groceries
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Home & Lifestyle
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Sports & Outdoors
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Automotive & Motorbike
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="./img/slide1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide2.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide3.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide4.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide5.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide6.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="./img/slide7.jpeg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="shop_now_btn_sect d-md-block d-none">
+        <a href="" class="shop_now_btn"></a>
+      </div>
+      <div class="category2 d-block d-md-none">
+        <div class="d-flex justify-content-around">
+          <a href="">
+            <div class="img_box">
+              <img src="./img/mart.png" class="img-fluid" alt="">
+            </div>
+            Mart
+          </a>
+          <a href="">
+            <div class="img_box">
+              <img src="./img/fashion.png" class="img-fluid" alt="">
+            </div>
+            Fashion
+          </a>
+          <a href="">
+            <div class="img_box">
+              <img src="./img/beauty.png" class="img-fluid" alt="">
+            </div>
+            Beauty & Glamour
+          </a>
+          <a href="">
+            <div class="img_box">
+              <img src="./img/home_makeover.png" class="img-fluid" alt="">
+            </div>
+            Home Makeover
+          </a>
+          <a href="">
+            <div class="img_box">
+              <img src="./img/low_price.png" class="img-fluid" alt="">
+            </div>
+            Everyday Low Price!
+          </a>
+        </div>
+      </div>
+      <div class="shop_now_btn_sect2 d-block d-md-none">
+        <a href="" class="shop_now_btn2">
+          <img src="./img/mobile_shop_now.gif" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="category d-md-block d-none">
+        <div class="d-flex justify-content-around flex-wrap">
+          <div>
+            <div class="cat_sec">
+              <a href="" class="d-flex">
+                <img src="./img/mart.png" class="img-fluid my-auto" alt=""><span class="my-auto">Mart</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="cat_sec">
+              <a href="" class="d-flex">
+                <img src="./img/fashion.png" class="img-fluid my-auto" alt=""><span class="my-auto">Fashion</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="cat_sec">
+              <a href="" class="d-flex">
+                <img src="./img/beauty.png" class="img-fluid my-auto" alt=""><span class="my-auto">Beauty
+                  & Glamour</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="cat_sec">
+              <a href="" class="d-flex">
+                <img src="./img/home_makeover.png" class="img-fluid my-auto" alt=""><span class="my-auto">Home
+                  Makeover</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="cat_sec">
+              <a href="" class="d-flex">
+                <img src="./img/low_price.png" class="img-fluid my-auto" alt=""><span class="my-auto">Everyday Low
+                  Price!</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- !Hero -->
+
+  <!-- Footer -->
+  <footer class="d-block d-md-none">
+    <div class="d-flex justify-content-between footer_content">
+      <div>
+        <a href="" class="active">
+          <i class="fa-solid fa-house"></i>
+          Home
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <i class="fa-solid fa-layer-group"></i>
+          Category
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <i class="fa-solid fa-user"></i>
+          Account
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- !Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
